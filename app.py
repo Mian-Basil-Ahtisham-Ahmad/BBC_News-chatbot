@@ -39,7 +39,7 @@ load_dotenv()
 user_agent = os.getenv("USER_AGENT", "Mozilla/5.0 (compatible; MyScraper/1.0)")
 headers = {"User-Agent": user_agent}
 BBC_URL = "https://www.bbc.com"
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyC3aJ_yatcFm3sI3rk_hvFBMAfRXonsHps")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 os.environ["GOOGLE_API_KEY"] = GEMINI_API_KEY
 
 MAX_CHAT_HISTORY = 10
